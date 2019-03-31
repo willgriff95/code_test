@@ -1,0 +1,245 @@
+{  
+    "response_code":0,
+    "results":[  
+       {  
+          "category":"Science: Computers",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"The Harvard architecture for micro-controllers added which additional bus?",
+          "correct_answer":"Instruction",
+          "incorrect_answers":[  
+             "Address",
+             "Data",
+             "Control"
+          ]
+       },
+       {  
+          "category":"Entertainment: Video Games",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"What was the world &#039;s first video game?",
+          "correct_answer":"Tennis for Two",
+          "incorrect_answers":[  
+             "Spacewar!",
+             "Pong",
+             "Space Travel"
+          ]
+       },
+       {  
+          "category":"Entertainment: Film",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"What is the name of the assassin in the first &quot;Hellboy &quot;movie?",
+          "correct_answer":"Karl Ruprecht Kroenen",
+          "incorrect_answers":[  
+             "Klaus Werner von Krupt",
+             "Grigori Efimovich Rasputin",
+             "Ilsa Haupstein"
+          ]
+       },
+       {  
+          "category":"General Knowledge",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"Which of the following is not another name for the eggplant?",
+          "correct_answer":"Potimarron",
+          "incorrect_answers":[  
+             "Brinjal",
+             "Guinea Squash",
+             "Melongene"
+          ]
+       },
+       {  
+          "category":"Entertainment: Video Games",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"When was Steam first released?",
+          "correct_answer":"2003",
+          "incorrect_answers":[  
+             "2004",
+             "2011",
+             "2007"
+          ]
+       },
+       {  
+          "category":"Entertainment: Books",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"Which of these does Charlie NOT read in The Perks of Being a Wallflower?",
+          "correct_answer":"The Grapes of Wrath",
+          "incorrect_answers":[  
+             "Hamlet",
+             "The Great Gatsby",
+             "Peter Pan"
+          ]
+       },
+       {  
+          "category":"Science: Computers",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"What port does HTTP run on?",
+          "correct_answer":"80",
+          "incorrect_answers":[  
+             "53",
+             "443",
+             "23"
+          ]
+       },
+       {  
+          "category":"Mythology",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"Nidhogg is a mythical creature from what mythology?",
+          "correct_answer":"Norse",
+          "incorrect_answers":[  
+             "Egyptian",
+             "Greek",
+             "Hindu"
+          ]
+       },
+       {  
+          "category":"Entertainment: Comics",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"When was the Garfield comic first published?",
+          "correct_answer":"1978",
+          "incorrect_answers":[  
+             "1982",
+             "1973",
+             "1988"
+          ]
+       },
+       {  
+          "category":"Politics",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"What is centralism?",
+          "correct_answer":" Concentration of power and authority in a central organization.",
+          "incorrect_answers":[  
+             "Conforming to one single common political agenda.",
+             "Remaining politically neutral.",
+             "The grey area in the spectrum of political left and right."
+          ]
+       },
+       {  
+          "category":"Geography",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"What is the land connecting North America and South America?",
+          "correct_answer":"Isthmus of Panama",
+          "incorrect_answers":[  
+             "Isthmus of Suez",
+             "Urals",
+             "Australasia"
+          ]
+       },
+       {  
+          "category":"Entertainment: Video Games",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"In the &quot;Call Of Duty: Zombies &quot;map &quot;Origins &quot;, where is &quot;Stamin-Up &quot;located?",
+          "correct_answer":"Generator 5",
+          "incorrect_answers":[  
+             "Generator 3",
+             "Generator 4",
+             "Excavation Site"
+          ]
+       },
+       {  
+          "category":"Entertainment: Video Games",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"Which of these characters wasn &#039;t a villian in Club Penguin?",
+          "correct_answer":"The Director",
+          "incorrect_answers":[  
+             "Herbert P. Bear",
+             "Tusk",
+             "Ultimate Proto-Bot 10000"
+          ]
+       },
+       {  
+          "category":"Entertainment: Film",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"What three movies, in order from release date, make up the &quot;Dollars Trilogy &quot;?",
+          "correct_answer":"&quot;A Fistful of Dollars &quot;, &quot;For a Few Dollars More &quot;, &quot;The Good, the Bad, and the Ugly &quot;",
+          "incorrect_answers":[  
+             "&quot;The Good, the Bad, and the Ugly &quot;, &quot;For A Few Dollars More &quot;, &quot;A Fistful of Dollars &quot;",
+             "&quot;For a Few Dollars More &quot;, &quot;The Good, the Bad, and the Ugly &quot;, &quot;A Fistful of Dollars &quot;",
+             "&quot;For a Few Dollars More &quot;, &quot;A Fistful of Dollars &quot;, &quot;The Good, the Bad, and the Ugly &quot;"
+          ]
+       },
+       {  
+          "category":"Science: Computers",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"Who invented the &quot;Spanning Tree Protocol &quot;?",
+          "correct_answer":"Radia Perlman",
+          "incorrect_answers":[  
+             "Paul Vixie",
+             "Vint Cerf",
+             "Michael Roberts"
+          ]
+       },
+       {  
+          "category":"Entertainment: Books",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"In the book series &quot;Odd Thomas &quot;, Danny Jessup has what genetic disease? ",
+          "correct_answer":" Osteogenesis Imperfecta",
+          "incorrect_answers":[  
+             "Spinocerebellar ataxia",
+             "Adrenoleukodystrophy",
+             "Cystic Fibrosis"
+          ]
+       },
+       {  
+          "category":"Entertainment: Music",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"What was the name of the cold-war singer who has a song in Grand Theft Auto IV, and a wall landmark in Moscow for his memorial?",
+          "correct_answer":"Viktor Tsoi",
+          "incorrect_answers":[  
+             "Jimi Hendrix",
+             "Brian Jones",
+             "Vladimir Vysotsky"
+          ]
+       },
+       {  
+          "category":"Entertainment: Board Games",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"The Dice Tower network of board game podcasts and videos is run by which individual?",
+          "correct_answer":"Tom Vasel",
+          "incorrect_answers":[  
+             "Jason LeVine",
+             "Borth Sampson",
+             "Uncle Pennybags"
+          ]
+       },
+       {  
+          "category":"Entertainment: Video Games",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"What was the name of Sonic the Hedgehog &#039;s original human girlfriend?",
+          "correct_answer":"Madonna",
+          "incorrect_answers":[  
+             "Celeste",
+             "Sierra",
+             "Nina"
+          ]
+       },
+       {  
+          "category":"Entertainment: Video Games",
+          "type":"multiple",
+          "difficulty":"hard",
+          "question":"In Guild Wars 2, what is the name of the legendary glowing orrery whose planets and clouds move?",
+          "correct_answer":"Meteorlogicus",
+          "incorrect_answers":[  
+             "The Juggernaut",
+             "The Flameseeker Prophecies",
+             "Kamohoali &#039;i Kotaki"
+          ]
+       }
+    ]
+ }
