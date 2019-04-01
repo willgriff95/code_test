@@ -7,8 +7,6 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 
 app.get('/api/questions', (req,res) => {
     const questions = require('./JSON/Questions.json');
-    // using lodash chunks to prep the data for pagination
-    // const questionArrayChunks = _.chunk(questionArray.results, 3)
     res.json(questions);
     console.log('Questions Retrieved');
 });
