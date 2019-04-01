@@ -4,7 +4,7 @@ import App from './App';
 import axios from "axios";
 import { create } from "react-test-renderer";
 import * as renderer from 'react-test-renderer';
-import questionsJson from '../../../Questions/Questions.json'
+import questionsJson from '../../../JSON/Questions.json'
 it('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
