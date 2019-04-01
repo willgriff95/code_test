@@ -7,7 +7,7 @@ import TableCell from '@material-ui/core/TableCell';
 
 import TableRow from '@material-ui/core/TableRow';
 import Questions from './Questions';
-import SimpleModalWrapped from './Modal';
+import Modal from './Modal';
 import Header from './Header'
 import Footer from './Footer'
 const styles = theme => ({
@@ -65,8 +65,8 @@ class App extends React.Component {
     // fetch('https://opentdb.com/api.php?amount=20&difficulty=hard&type=multiple')
 
     // OR
-    
-    // fetching locally
+
+    // fetching from local server
     fetch('/api/questions')
     .then(res => res.json())
     .then(data => this.setState({ data: data.results }, () => {
@@ -103,13 +103,10 @@ class App extends React.Component {
   shuffle = (answers) => {
     var currentIndex = answers.length, temporaryValue, randomIndex;
   
-    // While there remain elements to shuffle...
     while (0 !== currentIndex) {
-      // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
   
-      // And swap it with the current element.
       temporaryValue = answers[currentIndex];
       answers[currentIndex] = answers[randomIndex];
       answers[randomIndex] = temporaryValue;
@@ -219,7 +216,7 @@ class App extends React.Component {
               handleChangeRowsPerPage={this.handleChangeRowsPerPage}
             />
           </Table>
-          <SimpleModalWrapped 
+          <Modal 
             state={this.state} 
             handleOpen={this.handleOpen} 
             handleClose={this.handleClose}

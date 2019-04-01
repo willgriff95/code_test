@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly App component 1`] = `
+<div>
+  <div
+    className="Header-headerContainer-112"
+  >
+    <p
+      className="MuiTypography-root-114 MuiTypography-body1-123 Header-headerText-113"
+    >
+      GENERAL  
+      <br />
+      KNOWLEDGE_
+    </p>
+  </div>
+  <div
+    className="App-tableWrapper-107"
+  >
+    <table
+      className="MuiTable-root-150 App-table-106"
+    >
+      <tbody
+        className="MuiTableBody-root-151 App-tableBody-109"
+      />
+      <tfoot
+        className="MuiTableFooter-root-152"
+      >
+        <tr
+          className="MuiTableRow-root-153 MuiTableRow-footer-157"
+        >
+          <td
+            aria-sort={null}
+            className="MuiTableCell-root-158 MuiTableCell-footer-161"
+          >
+            <div
+              className="MuiTablePagination-root-170"
+            >
+              <div
+                className="MuiToolbar-root-180 MuiToolbar-regular-182 MuiToolbar-gutters-181 MuiTablePagination-toolbar-171"
+              >
+                <div
+                  className="MuiTablePagination-spacer-172"
+                />
+                <span
+                  className="MuiTypography-root-114 MuiTypography-caption-124 MuiTypography-colorInherit-143 MuiTablePagination-caption-173"
+                >
+                  0-0 of 0
+                </span>
+                <div
+                  className="MuiTablePagination-actions-179"
+                >
+                  <button
+                    aria-label="Previous Page"
+                    className="MuiButtonBase-root-190 MuiButtonBase-disabled-191 MuiIconButton-root-184 MuiIconButton-colorInherit-185 MuiIconButton-disabled-188"
+                    disabled={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex="-1"
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label-189"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="MuiSvgIcon-root-193"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                  <button
+                    aria-label="Next Page"
+                    className="MuiButtonBase-root-190 MuiButtonBase-disabled-191 MuiIconButton-root-184 MuiIconButton-colorInherit-185 MuiIconButton-disabled-188"
+                    disabled={true}
+                    onBlur={[Function]}
+                    onClick={[Function]}
+                    onContextMenu={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    tabIndex="-1"
+                    type="button"
+                  >
+                    <span
+                      className="MuiIconButton-label-189"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        className="MuiSvgIcon-root-193"
+                        focusable="false"
+                        role="presentation"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                        />
+                      </svg>
+                    </span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+    <div />
+  </div>
+</div>
+`;

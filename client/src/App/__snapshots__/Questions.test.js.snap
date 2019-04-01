@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly Questions component 1`] = `
+<div
+  className="Questions-root-56"
+>
+  <fieldset
+    className="MuiFormControl-root-62 Questions-formControl-57"
+  >
+    <legend
+      className="MuiFormLabel-root-66 Questions-questionContainer-59"
+    >
+      <p
+        className="MuiTypography-root-73 MuiTypography-body1-82 Questions-questionNumber-61"
+      >
+        NaN_
+      </p>
+      <div
+        className="Questions-questionText-60"
+      >
+        <div
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "<Typography>undefined</Typography>",
+            }
+          }
+        />
+      </div>
+    </legend>
+    <div
+      className="MuiFormGroup-root-109 Questions-group-58"
+      role="radiogroup"
+    />
+  </fieldset>
+</div>
+`;

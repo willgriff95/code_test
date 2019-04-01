@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly Footer component 1`] = `
+<tfoot
+  className="MuiTableFooter-root-94"
+>
+  <tr
+    className="MuiTableRow-root-95 MuiTableRow-footer-99"
+  >
+    <td
+      aria-sort={null}
+      className="MuiTableCell-root-100 MuiTableCell-footer-103"
+    >
+      <div
+        className="MuiTablePagination-root-112"
+      >
+        <div
+          className="MuiToolbar-root-122 MuiToolbar-regular-124 MuiToolbar-gutters-123 MuiTablePagination-toolbar-113"
+        >
+          <div
+            className="MuiTablePagination-spacer-114"
+          />
+          <span
+            className="MuiTypography-root-126 MuiTypography-caption-136 MuiTypography-colorInherit-155 MuiTablePagination-caption-115"
+          >
+            0-NaN of 0
+          </span>
+          <div
+            className="MuiTablePagination-actions-121"
+          >
+            <button
+              aria-label="Previous Page"
+              className="MuiButtonBase-root-168 MuiIconButton-root-162 MuiIconButton-colorInherit-163"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button"
+            >
+              <span
+                className="MuiIconButton-label-167"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-171"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-180"
+              />
+            </button>
+            <button
+              aria-label="Next Page"
+              className="MuiButtonBase-root-168 MuiIconButton-root-162 MuiIconButton-colorInherit-163"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onContextMenu={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex="0"
+              type="button"
+            >
+              <span
+                className="MuiIconButton-label-167"
+              >
+                <svg
+                  aria-hidden="true"
+                  className="MuiSvgIcon-root-171"
+                  focusable="false"
+                  role="presentation"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"
+                  />
+                </svg>
+              </span>
+              <span
+                className="MuiTouchRipple-root-180"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </td>
+  </tr>
+</tfoot>
+`;

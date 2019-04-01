@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly Header component 1`] = `
+<div
+  className="Header-headerContainer-39"
+>
+  <p
+    className="MuiTypography-root-41 MuiTypography-body1-50 Header-headerText-40"
+  >
+    GENERAL  
+    <br />
+    KNOWLEDGE_
+  </p>
+</div>
+`;
