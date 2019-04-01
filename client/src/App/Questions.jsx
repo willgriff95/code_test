@@ -58,49 +58,45 @@ const styles = theme => ({
   }
 });
 
-class Questions extends React.Component {
-  render() {
-    const { classes, questionData, radioButtonChange, index, questionIndex } = this.props;
-    const questionNew = <div dangerouslySetInnerHTML={{__html: `<Typography>${questionData && questionData.question}</Typography>`}} />
-
-    return (
-      <div className={classes.root}>
-        <FormControl component="fieldset" className={classes.formControl}>
-        <FormLabel component="legend" className={classes.questionContainer}>
-            <Typography className={classes.questionNumber}>
-            {(questionIndex + 1).toString().length > 1 ? 
-              `${questionIndex + 1}_`
-              :
-              `0${questionIndex + 1}_`
-          }
-            </Typography>
-            <div className={classes.questionText}>
-                {questionNew}
-            </div>
-        </FormLabel>
-          <RadioGroup
-            aria-label={index}
-            className={classes.group}
-            questionnumber={index}
-          >
-          {questionData && questionData.answers && questionData.answers.map((answer, index) => {
-            const answerNew = <div dangerouslySetInnerHTML={{__html: `<div>${answer}</div>`}} />
-            return (
-              <FormControlLabel 
-                key={index}  
-                questionnumber={index} 
-                value={answer} 
-                onChange={radioButtonChange} 
-                control={<Radio color="primary" />} 
-                label={answerNew}
-              />
-            )
-          })}
-          </RadioGroup>
-        </FormControl>
-      </div>
-    );
-  }
+const Questions = ({classes, questionData, radioButtonChange, index, questionIndex}) => {
+  const questionNew = <div dangerouslySetInnerHTML={{__html: `<Typography>${questionData && questionData.question}</Typography>`}} />
+  return (
+    <div className={classes.root}>
+      <FormControl component="fieldset" className={classes.formControl}>
+      <FormLabel component="legend" className={classes.questionContainer}>
+          <Typography className={classes.questionNumber}>
+          {(questionIndex + 1).toString().length > 1 ? 
+            `${questionIndex + 1}_`
+            :
+            `0${questionIndex + 1}_`
+        }
+          </Typography>
+          <div className={classes.questionText}>
+              {questionNew}
+          </div>
+      </FormLabel>
+        <RadioGroup
+          aria-label={index}
+          className={classes.group}
+          questionnumber={index}
+        >
+        {questionData && questionData.answers && questionData.answers.map((answer, index) => {
+          const answerNew = <div dangerouslySetInnerHTML={{__html: `<div>${answer}</div>`}} />
+          return (
+            <FormControlLabel 
+              key={index}  
+              questionnumber={index} 
+              value={answer} 
+              onChange={radioButtonChange} 
+              control={<Radio color="primary" />} 
+              label={answerNew}
+            />
+          )
+        })}
+        </RadioGroup>
+      </FormControl>
+    </div>
+  )
 }
 
 Questions.propTypes = {
