@@ -5,8 +5,7 @@ import TablePagination from '@material-ui/core/TablePagination';
 import TableRow from '@material-ui/core/TableRow';
 
 const Footer = ({rowsPerPage, page, data, handleChangePage, handleChangeRowsPerPage}) => {
-
-    return(
+    return (
     <TableFooter>
         <TableRow>
             <TableCell>
