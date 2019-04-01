@@ -61,7 +61,7 @@ const styles = theme => ({
 class Questions extends React.Component {
   render() {
     const { classes, questionData, radioButtonChange, index, questionIndex } = this.props;
-    const questionNew = <div dangerouslySetInnerHTML={{__html: `<Typography>${questionData.question}</Typography>`}} />
+    const questionNew = <div dangerouslySetInnerHTML={{__html: `<Typography>${questionData && questionData.question}</Typography>`}} />
 
     return (
       <div className={classes.root}>

@@ -50,13 +50,13 @@ import { Typography, Paper } from '@material-ui/core';
   });
 
   
-const SimpleModal = ({classes, state, handleClose, handleOpen}) => {
+const SimpleModal = ({classes, state, handleClose}) => {
     return (
         <div>
             <Modal
             aria-labelledby="simple-modal-title"
             aria-describedby="simple-modal-description"
-            open={state && state.modalOpen}
+            open={state && state.modalOpen ? state.modalOpen : false}
             onClose={handleClose}
             >
             <div style={getModalStyle()} className={classes.paper}>
